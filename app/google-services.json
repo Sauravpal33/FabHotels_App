@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405684597425",
+    "project_id": "fabhotels-e47e2",
+    "storage_bucket": "fabhotels-e47e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405684597425:android:5992cac5d8d5fc37d8a890",
+        "android_client_info": {
+          "package_name": "com.example.fabhotels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405684597425-t7oq0h5uonr22nlmmd59e1m4gp5htcj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqN1cJOnojy01nZ65aZdpAXE_hnBko2VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405684597425-t7oq0h5uonr22nlmmd59e1m4gp5htcj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

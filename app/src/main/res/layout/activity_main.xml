@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    tools:context=".Activities.MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
+            android:orientation="horizontal"
+            android:background="@color/blue"
+            >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/search_bg"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:drawablePadding="9sp"
+                android:fontFamily="@font/amita"
+                android:hint="Search Hotels"
+                android:padding="10sp"
+                android:textColorHint="@color/blue"
+                tools:ignore="Autofill,HardcodedText,MissingConstraints,RtlHardcoded,TextFields" />
+
+            <ImageView
+                android:layout_width="59dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="10sp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="80sp"
+            android:fontFamily="@font/amita"
+            android:text="Hello..."
+            android:textColor="@color/yellow"
+            android:textSize="50sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="160sp"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140sp"
+                    android:layout_height="130sp"
+                    app:cardCornerRadius="90sp"
+                    app:cardElevation="10sp"
+                    android:layout_marginLeft="10sp"
+                    tools:ignore="RtlHardcoded">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="140sp"
+                            android:layout_height="90sp"
+                            android:src="@drawable/delhi"
+                            android:layout_marginTop="10sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/amita"
+                            android:text="Delhi"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140sp"
+                    android:layout_height="130sp"
+                    app:cardCornerRadius="90sp"
+                    app:cardElevation="10sp"
+                    android:layout_marginLeft="10sp"
+                    tools:ignore="RtlHardcoded">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="140sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/agra"
+                            android:layout_marginTop="10sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/amita"
+                            android:text="Agra"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140sp"
+                    android:layout_height="130sp"
+                    app:cardCornerRadius="90sp"
+                    app:cardElevation="10sp"
+                    android:layout_marginLeft="10sp"
+                    tools:ignore="RtlHardcoded">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="140sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/mumbai"
+                            android:layout_marginTop="10sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/amita"
+                            android:text="Mumbai"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140sp"
+                    android:layout_height="130sp"
+                    app:cardCornerRadius="90sp"
+                    app:cardElevation="10sp"
+                    android:layout_marginLeft="10sp"
+                    tools:ignore="RtlHardcoded">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="140sp"
+                            android:layout_height="80sp"
+                            android:src="@drawable/rajasthan"
+                            android:layout_marginTop="10sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/amita"
+                            android:text="Jaipur"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450sp"
+        android:layout_marginTop="300sp"
+        android:orientation="vertical"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5sp"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

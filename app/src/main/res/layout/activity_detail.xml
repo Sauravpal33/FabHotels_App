@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.DetailActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/detailImage"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/room1" />
+
+            <TextView
+                android:id="@+id/mainName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotel"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/chekOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:background="@drawable/edit_textbackground"
+                android:layout_marginHorizontal="20sp"
+                android:hint="Check-in Date :"
+                android:layout_marginTop="10sp"
+                />
+
+            <EditText
+                android:id="@+id/checkIn"
+                android:layout_marginTop="5sp"
+                android:hint="Check-out Date :"
+                android:padding="15sp"
+                android:background="@drawable/edit_textbackground"
+                android:layout_marginHorizontal="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:id="@+id/adults"
+                android:layout_marginTop="5sp"
+                android:hint="Persons :"
+                android:padding="15sp"
+                android:background="@drawable/edit_textbackground"
+                android:layout_marginHorizontal="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:layout_marginTop="10sp"
+                android:layout_marginHorizontal="50sp"
+                android:background="@drawable/btn_background"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

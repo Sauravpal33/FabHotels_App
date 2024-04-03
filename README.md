@@ -8,3 +8,5 @@
 ![Design](https://user-images.githubusercontent.com/110292145/182830767-e0551e2c-e790-46f2-9fd1-cafc88c8f05d.png)
 # Layout
 ![Design2](https://user-images.githubusercontent.com/110292145/182830995-30ef2986-7e32-4cf6-9f9e-5f21803ba33f.png)
+# Layout
+![Design3](https://github.com/Sauravpal33/FabHotels_App/assets/110292145/ec8b15a2-4341-4f96-8d29-323f1ccb4019)
